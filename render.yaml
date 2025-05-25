@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: match-stream-api
+    env: python
+    buildCommand: ""
+    startCommand: python app.py
+    plan: free
+    region: oregon
+    branch: main
